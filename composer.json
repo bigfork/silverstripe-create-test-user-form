@@ -1,0 +1,24 @@
+{
+  "name": "bigfork/silverstripe-create-test-user-form",
+  "description": "Creates a test user form with a mix a of conditional and required fields",
+  "type": "silverstripe-vendormodule",
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "silverstripe"
+  ],
+  "authors": [
+    {
+      "name": "Bigfork",
+      "homepage": "https://www.bigfork.co.uk"
+    }
+  ],
+  "require": {
+    "silverstripe/framework": "^5",
+    "dnadesign/silverstripe-elemental-userforms": "^4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bigfork\\": "src/"
+    }
+  }
+}
